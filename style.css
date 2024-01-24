@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Rampart+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1F242A;
+}
+
+h1#title{
+    font-family: 'Bungee Shade', sans-serif;
+    color: orange;
+    width: 100%;
+    text-align: center;
+}
+
+nav.navbar{
+    width: 100%;
+    text-align: center;
+    background: transparent;
+    top: 10px;
+    position: sticky;
+}
+
+nav.navbar a{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: 700;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: tan;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+nav a:hover{
+    opacity: 0.5;
+    color: red;
+}
+
+main article#text{
+    text-align: center;
+    color: blanchedalmond;
+    margin-top: 100px;
+    font-family: "Rampart One", cursive;
+    padding: 3rem;
+    font-size: 3rem;
+}
+
+#projects {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    min-height: 600px;
+    text-align: center;
+}
+
+h3.project-header{
+    color: white;
+    font-size: 32px;
+    border-bottom: 2px solid;
+    display: inline;
+}
+
+#projects img {
+    margin-top: 25px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+#contact{
+    text-align: center;
+}
+
+h2.contact-me{
+    color: white;
+    font-size: 2rem;
+    border-bottom: 2px solid;
+    display: inline-block;
+}
+
+.bottom-nav{
+    font-size: 1.5rem;
+}
+
+
+.bottom-nav a{
+    color: white;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+.bottom-nav a i {
+    padding-right: 4px;
+    color: white;
+}
+
+.bottom-nav a:hover {
+    color:orangered;
+}
+
+.bottom-nav{
+    margin-top: 2rem;
+}
+
+.msg{
+    margin-top: 1rem;
+    color: white;
+    font-size: 1.3rem;
+}
+
+input,textarea {
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border: 2px solid rgb(208, 155, 86);
+    padding: 13px;
+    margin-bottom: 15px;
+    width: 50%;
+    outline: 0;
+}
+
+input:focus,textarea:focus {
+    border: 2px solid #cc4949;
+}
+
+textarea {
+    height: 150px;
+    line-height: 150%;
+    resize: vertical;
+}
+
+.btn {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    width: 50%;
+    background: tan;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+    transition: all 0.3s;
+    margin-top: -4px;
+    opacity: 0.7;
+    font-weight: 900;
+}
+.btn:hover::after{
+    content: "   🖅";
+    font-size: 30px;
+}
+.btn:hover {
+    opacity: 1;
+    color:orangered;
+}
+.topdiv{
+    /* width: 100%; */
+    margin: 15px;
+    text-align: right;
+}
+.top-up {
+    text-decoration: none;
+    font-size: 20px;
+    background-color: tan;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px 10px 10px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.top-up:hover{
+    background-color: orangered;
+}
+
+.top-up i{
+    background-color: transparent;
+}
